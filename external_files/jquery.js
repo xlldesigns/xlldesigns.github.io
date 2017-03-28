@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	
 	/*Nav Menu*/
-	var navmenu = "open";
-	$('#openclosenav').click(function(){
-		if(navmenu == "open"){
+	
+	$('#openclosenav').on("click", function(){
+		if($("#leftnav").width() == 0){
 			$("#logo").css("color","white");
 			$(".menulines").css({"margin":"0px","position":"relative"});
 			$("#menutopline").css({"transform":"rotate(45deg)","top":"17px"});
