@@ -59,7 +59,7 @@ function openclosenav(){
 		navmenu = "open";
 		setTimeout( function(){
 			$(".navdivs").css("width","0%");
-			$("#logo").css("color","#1ab2bb");
+			$("#logo").css("color","#2cb4fb");
 		},500);
 	};
 }
