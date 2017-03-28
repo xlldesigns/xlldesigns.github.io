@@ -1,0 +1,20 @@
+@media screen and (min-width:960px) {
+	#section1{height:1000px; padding:400px 30px 0px 30px;}
+	#section1 h1{font-size:50px;}
+	#section1 h2{font-size:40px;}
+	#section2{height:500px; padding:220px 20px 0px 20px; font-size:50px;}
+	#portwrapper{width:960px;}
+}
+
+@media screen and (max-width:640px) {
+	#section1{height:600px; padding:200px 30px 0px 30px;}
+	.headertxt{font-size:26px;top:8px;}
+	#section2{height:300px; padding:120px 20px 0px 20px; font-size:30px;}
+	.sec5div{width:100%; margin:20px 0px; float:none;}
+	#portwrapper{width:320px;}
+	#click2contact{font-size:20px;}
+}
+
+@media screen and (max-width:320px) {
+	.headertxt{font-size:22px;top:10px;}
+}
