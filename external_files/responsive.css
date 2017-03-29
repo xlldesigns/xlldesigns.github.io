@@ -13,6 +13,8 @@
 	.sec5div{width:100%; margin:20px 0px; float:none;}
 	#portwrapper{width:320px;}
 	#click2contact{font-size:20px;}
+	#section4{padding:20px 0px;}
+	#section4 img{margin:0px 0px 20px 0px;}
 }
 
 @media screen and (max-width:320px) {
