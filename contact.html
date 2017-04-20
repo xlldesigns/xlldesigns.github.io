@@ -4,11 +4,10 @@
 <head>
 	<title>xlldesigns</title>
 	<meta charset="utf-8">
-	<meta name="description" content="Description">
+	<meta name="description" content="Expert web and graphic designs custom made for you!">
 	<meta name="author" content="Lucas Cleric">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="external_files/css.css"/>
-	<link rel="stylesheet" href="external_files/responsive.css"/>
 	<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 	ga('create', 'UA-96526000-1', 'auto');
 	ga('send', 'pageview');</script>
@@ -17,15 +16,118 @@
 <body>
 
 <!--Turn on Javascript-->
-<div id="turnonjs">This is a Javascript-based website. You will not be able to enjoy the full experience of this site without it. If you can see this message, please turn on Javascript. Thank you!</div>
+<div id="turnonjs">Thank you for visiting my web site! Like most of today's modern sites, this site uses Javascript to operate. You will not be able to enjoy the full experience without it. If you can see this message, please turn on Javascript. Thank you once again!</div>
 
 <!--Navigation-->
 <div id="headermenu"></div>
 
 <!--Main-->
-<div id="click2contact">
-	<span id="click"><p onclick="click2contact();">Click here to contact us!</p></span>
+<div id="contact1"><p>How Can I Help You?</p>
+	<div id="contact2">
+		<img src="images/xlldesigns_logo.png" alt="xlldesigns logo" />
+	</div>
 </div>
+
+<div id="contact3">
+	<p><b>Need a quote?<br/>
+	Questions?<br/>
+	Comments?</b><br/><br/>
+	<i>Please don't hesitate<br/>
+	to send me an email:</i><br/><br/>
+	<a href="mailto:xlldesigns2017@gmail.com">xlldesigns2017@gmail.com</a><br/><br/>
+	Or simply fill out the form below<br/> and my email assistant will<br/>help generate your email:</p><br/>
+</div>
+
+<form id="emailmeform" onsubmit="return emailme();" >
+	<fieldset>
+		<legend>Email Me</legend>
+		
+		First Name:<br/>
+		<input id="firstname" class="inputwidth100" type="text" maxlength="50" value=""  /><br/><br/>
+		
+		Last Name:<br/>
+		<input id="lastname" class="inputwidth100" type="text" maxlength="50" value="" /><br/><br/>
+		
+		Phone:<br/>
+		<input id="phone" class="inputwidth100" type="text" maxlength="20" value="" /><br/><br/>
+		
+		Email:<br/>
+		<input id="email" class="inputwidth100" type="text" maxlength="50" value=""  /><br/><br/>
+		
+		Preferred Method of Contact:<br/>
+		<input id="contbyphone" type="radio" name="pmoc" value="Phone">&nbsp;Phone&nbsp;&nbsp;&nbsp;
+		<input id="contbyemail" type="radio" name="pmoc" value="Email">&nbsp;Email<br/><br/>
+		
+		Subject(s):<br/>
+		<input id="subweb" type="checkbox" name="subject" value=" Web Design Service" />&nbsp;Web Design Service<br/>
+		<input id="subgraphic" type="checkbox" name="subject" value=" Graphic Design Service" />&nbsp;Graphic Design Service<br/>
+		<input id="subquestion" type="checkbox" name="subject" value=" Question" />&nbsp;Question<br/>
+		<input id="subcomment" type="checkbox" name="subject" value=" Comment" />&nbsp;Comment<br/><br/>
+		
+		<!--Website Design-->
+		<div id="web_existweb" class="formtoggles">
+			Web Design Service:<br/>
+			Do you have an existing website?<br/>
+			<input id="yesexistweb" class="webinputs" type="radio" name="existweb" value="Yes">&nbsp;Yes&nbsp;&nbsp;&nbsp;
+			<input id="noexistweb" class="webinputs" type="radio" name="existweb" value="No">&nbsp;No<br/><br/>
+		</div>
+		
+		<div id="web_current" class="formtoggles">
+			Current Website Address:<br/>
+			<input id="currentweb" class="inputwidth100" type="text" maxlength="100" value="" /><br/><br/>
+			
+			
+			Service Needed:<br/>
+			<input id="updateweb" class="webinputs" type="radio" name="existwebserv" value="updateweb">&nbsp;Please update my current website<br/>
+			<input id="replaceweb" class="webinputs" type="radio" name="existwebserv" value="replaceweb">&nbsp;Please completely replace my website<br/><br/>
+		</div>
+		
+		<div id="web_new" class="formtoggles">
+		Service Needed:<br/>
+		<input id="webdesignonly" class="webinputs" type="radio" name="webdestype" value="No">&nbsp;Website Design Only<br/>
+		<input id="fullwebdesign" class="webinputs" type="radio" name="webdestype" value="Yes">&nbsp;Full Website Development<br/><br/>
+		
+		Approximate Number of Pages Desired:<br/>
+		<input id="1page" class="webinputs" type="radio" name="pages" value="1-3 Pages">&nbsp;1-3 Pages<br/>
+		<input id="4page" class="webinputs" type="radio" name="pages" value="4-10 Pages">&nbsp;4-10 Pages<br/>
+		<input id="10page" class="webinputs" type="radio" name="pages" value="More Than 10 Pages">&nbsp;More Than 10 Pages<br/><br/>
+		</div>
+		
+		<div id="web_details" class="formtoggles">
+			Project Details:<br/>
+			<textarea id="websitedetails" rows="7" class="inputwidth100" maxlength="5000"></textarea><br/><br/>
+		</div>
+		
+		<!--Graphic Design-->
+		<div id="graphicdata" class="formtoggles">
+			Graphic Design Service:<br/>
+			<input id="gd" type="checkbox" name="graphicservice" value=" Graphic Design" />&nbsp;Graphic Design<br/>
+			<input id="logodes" type="checkbox" name="graphicservice" value=" Logo Design" />&nbsp;Logo Design<br/>
+			<input id="photoman" type="checkbox" name="graphicservice" value=" Photo Manipulation" />&nbsp;Photo Manipulation<br/>
+			<input id="bannerdes" type="checkbox" name="graphicservice" value=" Banner Design" />&nbsp;Banner Design<br/>
+			<input id="shirtdes" type="checkbox" name="graphicservice" value=" Shirt Design" />&nbsp;Shirt Design<br/>
+			<input id="otherdes" type="checkbox" name="graphicservice" value=" Other" />&nbsp;Other<br/><br/>
+			
+			Additional Details:<br/>
+			<textarea id="designdetails" rows="7" class="inputwidth100" maxlength="5000"></textarea><br/><br/>
+		</div>
+		
+		<!--Question-->
+		<div id="questiondata" class="formtoggles">
+			Question:<br/>
+			<textarea id="question" rows="7" class="inputwidth100" maxlength="5000"></textarea><br/><br/>
+		</div>
+		
+		<!--Comment-->
+		<div id="commentdata" class="formtoggles">
+			Comment:<br/>
+			<textarea id="comment" rows="7" class="inputwidth100" maxlength="5000"></textarea><br/><br/>
+		</div>
+
+		<input type="reset" value="Reset" onclick="formreset();" /><br/>
+		<input type="submit" value="Submit"/>
+	</fieldset>
+</form>
 
 <!--Footer-->
 <footer id="foot"></footer>
