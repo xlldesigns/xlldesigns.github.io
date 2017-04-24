@@ -250,13 +250,12 @@ nav a:hover{color:#121d27;}
 	font-weight:bold;
 	text-shadow:3px 4px 3px black;}
 #serv2{
-	width:300px;
+	width:500px;
 	margin:auto;
-	padding:20px;
 	text-align:center;}
 #serv2 h1{font-size:30px; font-weight:bold; color:#8aa2ad;}
-#serv2 p{font-size:18px; margin-bottom:50px;}
-#serv2 img{height:100px;}
+#serv2 p{font-size:24px; margin-bottom:100px;}
+#serv2 img{width:400px;}
 
 /*Process*/
 #process1{
@@ -487,6 +486,9 @@ footer a:hover{color:#8aa2ad;}
 	#contact3{font-size:20px;}
 	.portmenu{width:90%; margin:0px 5% 50px 5%;}
 	.gportimg1, .gportimg2{width:92%;}
+	#serv2{width:300px; padding:0px 20px;}
+	#serv2 p{font-size:18px; margin-bottom:80px;}
+	#serv2 img{width:260px;}
 }
 
 @media screen and (max-width:320px) {
